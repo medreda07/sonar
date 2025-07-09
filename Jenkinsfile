@@ -1,17 +1,16 @@
 pipeline {
     agent any
-tools {
-    maven 'maven'
-}
-environment{
-SONAR_URL="http://localhost:9000"
-}
+    tools {
+        maven 'maven'
+    }
+    environment{
+    SONAR_URL="http://localhost:9000"
+    }
 
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'feature', credentialsId: 'git-connect', url: 'https://github.com/medreda07/sonar'
-            }
+git branch: 'main', credentialsId: 'git-connect', url: 'https://github.com/medreda07/sonar.git'            }
         }
         stage("Build") {
            steps {
