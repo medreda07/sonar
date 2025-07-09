@@ -57,8 +57,7 @@
 			</activation>
 			<properties>
 				<sonar.host.url>http://localhost:9000</sonar.host.url>
-		
-				<sonar.token>sqa_6682d32ea9a4335ea2d29ae77e3bcc8bf339db27</sonar.token>
+				<sonar.token>sqa_0fc6683fc83445ec7e7c4562a6086a01aa264c5d</sonar.token>
 			</properties>
 		</profile>
 	</profiles>
