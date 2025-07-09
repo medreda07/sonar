@@ -1,10 +1,10 @@
-package sn.master.sir.mastersir2023;
+package com.javatechie;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MasterSir2023ApplicationTests {
+class DevopsIntegrationApplicationTests {
 
 	@Test
 	void contextLoads() {
